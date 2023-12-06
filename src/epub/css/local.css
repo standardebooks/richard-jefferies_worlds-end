@@ -26,3 +26,39 @@ span.elision{
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
+
+table{
+	margin: 1em;
+}
+
+table td{
+	border: 0;
+}
+
+table td:last-child{
+	font-variant-numeric: tabular-nums;
+	text-align: right;
+}
+
+table tfoot th{
+	text-align: right;
+}
+
+table tfoot td{
+	border-bottom: 3px solid;
+	border-top: 1px solid;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="z3998:salutation"] + p,
+[epub|type~="z3998:letter"] header + p{
+	text-indent: 0;
+}
