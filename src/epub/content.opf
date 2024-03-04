@@ -40,7 +40,8 @@
     <meta property="se:subject">Fiction</meta>
     <dc:description id="description">The great city of Stirmingham is built and owned by a single individual. Upon his death, claimants vie to inherit control of his vast wealth, while a young couple are caught in the middle.</dc:description>
     <meta id="long-description" property="se:long-description" refines="#description">
-      LONG_DESCRIPTION
+      &lt;p&gt;&lt;i&gt;World’s End&lt;/i&gt; is the third book released by &lt;a href="https://standardebooks.org/ebooks/richard-jefferies"&gt;Richard Jefferies&lt;/a&gt;. It was incrementally more successful than his previous two novels. He had not yet settled into the nature focused style that would come to define his later works. However, contemporary critics noted his improved plotting and more believable character motives.&lt;/p&gt;
+      &lt;p&gt;The novel was original released in three separate books. The first book chronicles a murder that sets the later action in motion, as well as documenting the two families that led to the creation of the great city of Stirmingham. The second book sees a romance blossom, a second murder, and lots of intrigue as descendants of the characters from the first book vie to inherit the city of Stirmingham, and the great wealth and power that comes with that inheritance. The third book sets to solving the two murders and seeing through all of the action set up in the previous books.&lt;/p&gt;
     </meta>
     <dc:language>en-GB</dc:language>
     <dc:source>https://www.gutenberg.org/ebooks/37079</dc:source>
@@ -65,9 +66,8 @@
     <meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
     <meta property="role" refines="#artist" scheme="marc:relators">art</meta>
     <!-- no transcriber is listed by Gutenberg, do I include this block? -->
-    <dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-    <meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-    <meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+    <dc:contributor id="transcriber-1">Anonymous</dc:contributor>
+    <meta property="file-as" refines="#transcriber-1">Anonymous</meta>
     <meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
     <dc:contributor id="producer-1">Brian Evans</dc:contributor>
     <meta property="file-as" refines="#producer-1">Evans, Brian</meta>
