@@ -26,7 +26,7 @@ span.elision{
 
 table{
 	margin: 1em 0;
-  width: 100%;
+	width: 100%;
 }
 
 table td{
@@ -35,16 +35,16 @@ table td{
 
 table td:last-child{
 	font-variant-numeric: tabular-nums;
+	padding-left: 0.5em;
 	text-align: right;
-  padding-left: 0.5em;
 }
 
 table tfoot{
-  padding-top: 0.5em;
+	padding-top: 0.5em;
 }
 
 table th[scope=row]{
-  padding-right: 1em;
+	padding-right: 1em;
 }
 
 table tfoot th{
@@ -69,4 +69,6 @@ footer{
 	text-indent: 0;
 }
 
-caption{ text-align: initial }
+caption{
+	text-align: initial;
+}
