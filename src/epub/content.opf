@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/richard-jefferies/worlds-end</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2024-03-15T18:45:04Z</dc:date>
+		<meta property="dcterms:modified">2024-03-15T18:45:04Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,10 +38,10 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008107179</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">When the creator of the great city of Stirmingham dies claimants vie to inherit control of his vast wealth, ensnaring two young lovers in a deadly plot.</dc:description>
+		<dc:description id="description">When the creator of the great city of Stirmingham dies, claimants vie to inherit control of his vast wealth, ensnaring two young lovers in a deadly plot.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;World’s End&lt;/i&gt; is the third book released by &lt;a href="https://standardebooks.org/ebooks/richard-jefferies"&gt;Richard Jefferies&lt;/a&gt;. It was incrementally more successful than his previous two novels. He had not yet settled into the nature focused style that would come to define his later works. However, contemporary critics noted his improved plotting and more believable character motives.&lt;/p&gt;
-			&lt;p&gt;The novel documents the rise of a great city, the enormous wealth of its founder, and a plot to acquire the founders estate by any means necessary. Caught up in the middle are Aymer and Violet, two young lovers engaged to be married.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;World’s End&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/richard-jefferies"&gt;Richard Jefferies’&lt;/a&gt; third book. He had not yet settled into the nature-focused style that would come to define his later works, and it was only incrementally more successful than his previous two novels. However, contemporary critics noted his improved plotting and the more believable motives of his characters.&lt;/p&gt;
+			&lt;p&gt;The novel documents the rise of a great city, Stirmingham, the enormous wealth of its founder, and a plot to acquire the founder’s estate by any means necessary. Caught up in the middle are Aymer and Violet, two young lovers engaged to be married.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/37079</dc:source>
@@ -51,8 +51,8 @@
 		<dc:source>https://archive.org/details/worldsendastory05jeffgoog</dc:source>
 		<!-- Book 3 -->
 		<dc:source>https://archive.org/details/worldsendastory01jeffgoog</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">127470</meta>
+		<meta property="se:reading-ease.flesch">69.01</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/richard-jefferies_worlds-end</meta>
 		<dc:creator id="author">Richard Jefferies</dc:creator>
 		<meta property="file-as" refines="#author">Jefferies, Richard</meta>
@@ -77,6 +77,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.robinwhittleton.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
