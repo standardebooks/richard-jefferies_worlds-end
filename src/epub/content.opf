@@ -52,7 +52,7 @@
 		<!-- Book 3 -->
 		<dc:source>https://archive.org/details/worldsendastory01jeffgoog</dc:source>
 		<meta property="se:word-count">127470</meta>
-		<meta property="se:reading-ease.flesch">69.01</meta>
+		<meta property="se:reading-ease.flesch">69.11</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/richard-jefferies_worlds-end</meta>
 		<dc:creator id="author">Richard Jefferies</dc:creator>
 		<meta property="file-as" refines="#author">Jefferies, Richard</meta>
